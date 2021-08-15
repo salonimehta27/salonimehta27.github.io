@@ -1,0 +1,250 @@
+body {
+  background-color: white;
+  margin: 0px;
+  line-height: 1;
+}
+div.card {
+  text-align: center;
+  border-color: grey solid 1px;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px;
+  border: 6px;
+  border-style: double;
+  border-color: rgb(121, 81, 121);
+}
+.product-image {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+.imgonA {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+  margin-left: 50px;
+}
+img:hover {
+  opacity: 2;
+}
+a {
+  color: rgb(224, 93, 159);
+  text-decoration: none;
+  display: block;
+}
+
+div #main-container {
+  /* padding: 1rem; */
+  margin: auto;
+  width: stretch;
+  height: auto;
+  opacity: 0.8;
+}
+
+#btnClick {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  height: 30px;
+}
+
+#searchId {
+  width: 150px;
+  height: 30px;
+  margin-top: 40px;
+  border: 0.4em solid rgb(121, 81, 121);
+  border-radius: 12px;
+}
+nav.scroll-up,
+nav:focus-within {
+  top: 0;
+}
+
+nav.scroll-down {
+  top: -100%;
+}
+.links {
+  display: flex;
+  margin: 0 -1em;
+}
+.logo img {
+  width: 200px;
+  height: 90px;
+  margin-left: 30px;
+}
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.links a {
+  display: inline-block;
+  margin: 0 1em;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: thistle;
+}
+.comment-box {
+  display: block;
+}
+.addCartBtn {
+  background-color: #29a074;
+  text-shadow: honeydew;
+  color: aliceblue;
+  transition: all 0.3s;
+}
+.addCartBtn:hover {
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.1), inset 0 0 1em rgba(0, 0, 0, 0.1);
+  background-color: rgb(121, 81, 121);
+}
+.deleteItem {
+  background-color: indianred;
+  color: aliceblue;
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 50px;
+}
+.placeOrder {
+  background-color: rgb(70, 110, 29);
+  color: aliceblue;
+  height: 30px;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+}
+.cartImage {
+  height: 70px;
+  width: 70px;
+  align-items: center;
+  margin-left: 50px;
+  border: 3px solid #555;
+}
+#cart {
+  /* margin-top: 5px; */
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 auto;
+  color: #dcfbb4;
+  background-color: rgb(121, 81, 121);
+  border: 0.4em solid #d4f7da;
+  border-radius: 50%;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  width: 4em;
+  height: 4em;
+  line-height: 3em;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 100px;
+}
+#cart:hover {
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.1), inset 0 0 1em rgba(0, 0, 0, 0.1);
+  background-color: #29a074;
+  /* padding: 0;
+  border: none;
+  background: none;
+  width: 45px;
+  height: 30px;
+  size: 30px; */
+}
+.cartAppear {
+  margin-left: 50px;
+}
+#price {
+  text-shadow: 0 0 2px rgb(121, 81, 121);
+}
+#additem {
+  border: 2px solid #4caf50;
+  background-color: rgb(243, 203, 116);
+}
+.submit-review {
+  border: 2px solid rgb(84, 84, 230);
+  background-color: darkslategrey;
+  color: aliceblue;
+}
+.backToCart {
+  border-radius: 12px;
+  height: 30px;
+  background-color: rgb(243, 203, 116);
+  margin-left: 50px;
+}
+#titleId {
+  color: purple;
+  text-shadow: 2px purple;
+  font-size: small;
+}
+#nameTitle {
+  color: purple;
+}
+.dropbtn {
+  background-color: rgb(121, 81, 121);
+  color: white;
+  padding: 13px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: 500px;
+  transition: all 0.3s;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #29a074;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 500px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+.cartEmpty {
+  color: rgb(224, 93, 159);
+  margin-left: 50px;
+}
+#mainImg{
+  cursor: pointer;
+}
